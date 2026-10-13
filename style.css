@@ -98,7 +98,7 @@ body {
 }
 
 #resultado-clima {
-  display: none; /* JS muda para 'flex' */
+  display: none;
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -108,11 +108,9 @@ body {
   color: #ffffff;
   border-radius: 12px;
   
-  /* Diminuímos o padding vertical e aproximamos o card do form */
   padding: 16px 24px; 
   gap: 8px;
   
-  /* MARGEM AQUI: 1rem no topo aproxima o card do formulário */
   margin: 1rem auto 0 auto; 
   
   width: 100%;
